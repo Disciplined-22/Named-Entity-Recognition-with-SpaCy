@@ -11,4 +11,4 @@ doc = nlp(text)
 
 # Extract and print named entities
 for ent in doc.ents:
-    print(f"Entity: {ent.text}, Label: {ent.label_}")
+    print("Entity: {}, Label: {}".format(ent.text, ent.label_))
