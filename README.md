@@ -15,8 +15,9 @@ Clone the repository:
  git clone https://github.com/Disciplined-22/Named-Entity-Recognition-with-SpaCy.git
 
 
-Run the example script:
-  python spacy.py
+Run the python script:
+  cd Named-Entity-Recognition-with-SpaCy
+  python main.py
   This script loads the SpaCy English model (en_core_web_sm) and processes a sample text, extracting and printing named entities along with their labels.
 
 
